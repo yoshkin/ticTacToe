@@ -2,8 +2,8 @@
 /* eslint-disable class-methods-use-this */
 /* eslint-disable default-case */
 
-import Easy from './strategies/Easy.js';
-import Normal from './strategies/Normal.js';
+import Easy from './EasyStrategy.js';
+import Normal from './NormalStrategy.js';
 
 const strategies = {
   'easy': new Easy(),
